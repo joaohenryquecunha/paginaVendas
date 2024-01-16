@@ -1,46 +1,117 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <title>Formatação</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  </head>
-  <body>
-    <section>
-      <div class="titulo">
-        <h1>Curso exclusivo de Formatação</h1>
-      </div>
-    </section>
-   <section class="d-flex bg-primary">
-    <div class="container d-flex bg-danger justify-content-center">
-      <div class="container d-flex gap-5 flex-nowrap">
-      <div class="card" style="width: 18rem;">
-        <img src="./src/profissional.jpg" class="card-img-top" alt="profissional">
-        <div class="card-body">
-          <h5 class="card-title text-center">PROFISSIONAL</h5>
-          <p class="card-text">Se torne um profissional na área da computação, você vai aprender de forma completa e simples. </p>
-        </div>
-      </div>
-        <div class="card" style="width: 18rem;">
-          <img src="./src/passo-passo.jpg" class="card-img-top" alt="passo a passo">
-          <div class="card-body">
-            <h5 class="card-title text-center">SIMPLES</h5>
-            <p class="card-text">Não se preocupe caso não saiba nada de informática, esse curso foi pensado e projetado para todas as pessoas.</p>
-          </div>
-        </div>
-          <div class="card" style="width: 18rem;">
-            <img src="./src/ganhar-dinheiro.jpg" class="card-img-top" alt="renda extra">
-            <div class="card-body">
-              <h5 class="card-title text-center">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        </div>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>Formatação</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <div class="container titulo p-2 mb-5">
+      <h1 class="text-white t-title">Curso exclusivo de Formatação</h1>
     </div>
-   </section>
-  
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  </body>
+  </header>
+  <section class="d-flex">
+    <div class="container d-flex justify-content-center">
+      <div class="container d-flex flex-nowrap">
+        <div class="card" style="width: 28rem; height: 20rem;">
+          <div class="wrapper">
+            <img src="./src/profissional-sem-fundo.png" class="card-img-top" alt="profissional">
+          </div>
+          <img src="./src/profissional-sem-fundo.png" alt="profissional-sem-fundo" class="character">
+          <h5 class="card-title 
+                 text-center 
+                 position-relative 
+                 wrapper 
+                 text-white" style="top: 270px; margin: 0 auto;">PROFISSIONAL</h5>
+          <p class="card-text 
+                 text-center 
+                 position-relative 
+                 character 
+                 fs-6
+                 p-3
+                 text-white" style="top: 200px;">Se torne um profissional na área da computação, você vai aprender de
+            forma completa e simples, terá acesso a todas as ferramentas. </p>
+        </div>
+        <div class="card" style="width: 28rem; height: 20rem;">
+          <div class="wrapper">
+            <img src="./src/passo-passo-sem-fundo.png" class="card-img-top" alt="profissional">
+          </div>
+          <img src="./src/passo-passo-sem-fundo.png" alt="profissional-sem-fundo" class="character">
+          <h5 class="
+                card-title 
+                text-center 
+                position-relative
+                wrapper 
+                text-white" style="top: 270px; margin: 0 auto;">SIMPLES</h5>
+          <p class="
+                card-text 
+                text-center 
+                position-relative
+                character
+                fs-6
+                p-3
+                text-white" style="top: 180px;">Curso projetado e pensado para que qualquer possoa possa aprender,
+            mesmo não sabendo nada de informática, passo a passo feito nos mínimos detalhes. </p>
+        </div>
+        <div class="card" style="width: 28rem; height: 20rem;">
+          <div class="wrapper">
+            <img src="./src/ganhar-dinheiro-sem-fundo.png" class="card-img-top" alt="renda-extra">
+          </div>
+          <img src="./src/ganhar-dinheiro-sem-fundo.png" alt="renda-extra-sem-fundo" class="character">
+          <h5 class="
+                card-title 
+                text-center 
+                position-relative
+                wrapper 
+                text-white" style="top: 250px; margin: 0 auto;">RENDA EXTRA</h5>
+          <p class="
+                card-text 
+                text-center 
+                position-relative
+                character
+                fs-6
+                p-3
+                text-white" style="top: 180px; ">Curso projetado e pensado para que qualquer possoa possa aprender,
+            mesmo não sabendo nada de informatica, passo a passo feito nos mínimos detalhes. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container" style="width: 45%;">
+    <div class="container mt-5 text-center">
+      <h2 class="mt-5 p-texto">Tudo o que você precisa para se tornar um profissional é dar o primeiro passo!</h2>
+    </div>
+  </section>
+  <section>
+    <div class="container d-flex justify-content-center mt-5">
+      <a href="#" class="btn btn-primary botão-passo" type="button">PRIMEIRO PASSO</a>
+    </div>
+  </section>
+  <section>
+   <h3>Conteúdo:</h3>
+   <ul>
+    <li>Acessar a BIOS</li>
+    <li>Configurar o BOOT</li>
+    <li>Particionar HD/SSD</li>
+    <li>Tipos de Formatação</li>
+    <li>Passo a Passo detalhado</li>
+    <li>Instalação Windows 10</li>
+    <li>Atualização do windows</li>
+    <li>Atualização dos Drivers</li>
+    <li>instalação de programas</li>
+    <li>ativação de programas</li>
+   </ul>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
