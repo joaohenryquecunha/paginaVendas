@@ -32,13 +32,24 @@ body{
   border: none !important;
   padding: 10px !important;
   font-weight: 600 !important;
-  transition: 500ms linear !important;
+  transition: 300ms linear !important;
+  box-shadow: 0.1px 1px 10px #fff;
+
 }
 
 .botão-passo:hover {
   background-color: #795300 !important;
   transform: scale(1.2);
+  padding: 15px !important;
+}
 
+.lista {
+  font-weight:800;
+}
+
+.WhatsApp {
+  color: #ffffff;
+  font-weight: 900;
 }
 
 
@@ -58,7 +69,7 @@ body{
     height: var(--card-height);
     position: relative;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     perspective: 2500px;
     margin: 0 50px;
     background-color: transparent !important;
