@@ -43,6 +43,11 @@ body{
   padding: 15px !important;
 }
 
+.cartao {
+  width: 28rem !important; 
+  height: 20rem !important;
+}
+
 .lista {
   font-weight:800;
 }
@@ -50,6 +55,69 @@ body{
 .WhatsApp {
   color: #ffffff;
   font-weight: 900;
+}
+
+.cartao {
+  width: 28rem !important;
+  height: 28rem !important;
+}
+
+.paragrafo {
+  top: 200px !important;
+}
+
+.paragrafo-simples {
+  top: 180px !important;
+}
+
+.paragrafo-extra {
+  top: 180px !important;
+}
+
+.section-texto {
+  width: 45% !important;
+}
+
+.c-whats{
+  padding: 100px !important;
+}
+
+@media (max-width: 720px) {
+.card {
+  margin: 20px !important;
+}
+
+.cartao {
+  width: 20rem !important;
+  height: 20rem !important;
+}
+
+.paragrafo {
+  top: 150px !important;
+}
+
+.paragrafo-simples {
+  top: 135px !important;
+}
+
+.paragrafo-extra {
+  top: 135px !important;
+}
+
+.section-texto {
+  width: 65% !important;
+}
+
+.conteudo {
+  margin-left: 50px !important;
+  text-align: center;
+}
+
+.c-whats{
+  padding: 40px !important;
+}
+
+
 }
 
 
@@ -61,6 +129,7 @@ body{
     --card-width: calc(var(--card-height) / 1.5);
   }
   * {
+    margin: 0;
     box-sizing: border-box;
   }
 
