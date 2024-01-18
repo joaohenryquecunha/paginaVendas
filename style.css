@@ -78,12 +78,16 @@ body{
   width: 45% !important;
 }
 
-.c-whats{
-  padding: 100px !important;
-}
 
+.p-title {
+  top: 400px; 
+  margin: 0 auto;
+}
+.imagem-whats{
+  margin: 0 auto;
+}
 @media (max-width: 720px) {
-.card {
+.carttao {
   margin: 20px !important;
 }
 
@@ -133,7 +137,7 @@ body{
     box-sizing: border-box;
   }
 
-.card {
+.carttao {
     width: var(--card-width);
     height: var(--card-height);
     position: relative;
@@ -158,7 +162,7 @@ body{
     z-index: -1;
   }
   
-  .card:hover .wrapper {
+  .carttao:hover .wrapper {
     transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
     filter:blur(500px);
 
@@ -185,19 +189,19 @@ body{
  
   }
   
-  .card:hover .wrapper::before,
+  .carttao:hover .wrapper::before,
   .wrapper::after {
     opacity: 1;
   }
   
-  .card:hover .wrapper::after {
+  .carttao:hover .wrapper::after {
     height: 120px;
   }
   .title {
     width: 100%;
     transition: transform 0.5s;
   }
-  .card:hover .title {
+  .carttao:hover .title {
     transform: translate3d(0%, -50px, 100px);
   }
   
@@ -209,7 +213,7 @@ body{
     z-index: -1;
   }
   
-  .card:hover .character {
+  .carttao:hover .character {
     opacity: 1;
     transform: translate3d(0%, -30%, 100px);
   }
