@@ -33,7 +33,7 @@ body{
   padding: 10px !important;
   font-weight: 600 !important;
   transition: 300ms linear !important;
-  box-shadow: 0.1px 1px 10px #fff;
+  box-shadow: 0.1px 1px 20px #fff;
 
 }
 
@@ -242,7 +242,11 @@ body{
   }
 
  .WhatsApp {
-  padding: 20px 120px !important;
+  padding: 20px 150px !important;
+ }
+ .botão-duvida {
+  display: flex;
+  margin: 0 auto;
  }
 }
 
