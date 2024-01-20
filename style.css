@@ -38,9 +38,10 @@ body{
 }
 
 .botão-passo:hover {
-  background-color: #795300 !important;
-  transform: scale(1.2);
-  padding: 15px !important;
+  background-color: #00ff0d !important;
+  transform: scale(1.1);
+  padding: 10px !important;
+  color: #000000 !important;
 }
 
 .cartao {
@@ -58,35 +59,53 @@ body{
 }
 
 .cartao {
-  width: 28rem !important;
-  height: 28rem !important;
+  width: 20rem !important;
+  height: 20rem !important;
 }
 
 .paragrafo {
-  top: 200px !important;
+  top: 140px !important;
 }
 
 .paragrafo-simples {
-  top: 180px !important;
+  top: 135px !important;
 }
 
 .paragrafo-extra {
-  top: 180px !important;
+  top: 140px  !important;
 }
 
 .section-texto {
   width: 45% !important;
 }
 
+.conteudo {
+  display: flex;
+}
+.texto-sub-titulo {
+  margin: 0px 150px 0px 150px;
+  margin-top: 40px;
+  font-weight: 700;
+}
+
+
+.caixa-whats {
+  display: flex;
+  border-radius: 50px 1100px 50px 50px;
+  margin: 0;
+  background-image: linear-gradient(to bottom, green, black);
+}
 
 .p-title {
-  top: 400px; 
+  top: 290px; 
   margin: 0 auto;
 }
 .imagem-whats{
   margin: 0 auto;
 }
-@media (max-width: 720px) {
+
+
+@media (max-width: 1100px) {
 .carttao {
   margin: 20px !important;
 }
@@ -113,7 +132,7 @@ body{
 }
 
 .conteudo {
-  margin-left: 50px !important;
+  display: grid;
   text-align: center;
 }
 
@@ -121,7 +140,110 @@ body{
   padding: 40px !important;
 }
 
+.caixa-whats {
+  display: grid !important;
+  border-radius: 50px 50px 1550px 1550px;
+  margin: 0;
+  background-image: linear-gradient(to bottom, green, black);
+}
+.imagem-whats{
+  margin: 0 auto;
+}
+.caixa-cards{
+  display: flex;
+}
 
+}
+@media (max-width: 995px){
+  .t-title {
+    font-size: 2.4rem;
+    font-weight: 900;
+  }
+  .texto-sub-titulo {
+    margin: 0px 50px 0px 50px;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 760px){
+  .t-title {
+    font-size: 2.4rem;
+    font-weight: 900;
+  }
+  .texto-sub-titulo {
+    margin: 0px -50px 0px -50px;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .carttao {
+    margin: 5px !important;
+  }
+  
+  .cartao {
+    width: 24rem !important;
+    height: 22rem !important;
+  }
+  
+  .paragrafo {
+    top: 140px !important;
+  }
+  
+  .paragrafo-simples {
+    top: 135px !important;
+  }
+  
+  .paragrafo-extra {
+    top: 135px !important;
+  }
+  
+  .section-texto {
+    width: 65% !important;
+  }
+  
+  .conteudo {
+    display: grid;
+    text-align: center;
+  }
+  
+  .c-whats{
+    padding: 40px !important;
+  }
+  
+  .caixa-whats {
+    display: grid !important;
+    border-radius: 50px 50px 1550px 1550px;
+    margin: 0;
+    background-image: linear-gradient(to bottom, green, black);
+  }
+  .imagem-whats{
+    margin: 0 auto;
+  }
+}
+@media (max-width: 480px){
+  .caixa-cards{
+    margin-top: 30px;
+    display: grid;
+    gap: 60px;
+  }
+
+  .cartao {
+    width: 20rem !important;
+    height: 22rem !important;
+  }
+
+  .texto-sub-titulo {
+    margin: 0px 10px;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .section-texto {
+    width: 100% !important;
+  }
+
+ .WhatsApp {
+  padding: 20px 120px !important;
+ }
 }
 
 
