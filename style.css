@@ -271,6 +271,12 @@ body{
  .imagem-whats {
   width: 100%;
  }
+
+ .carttao:hover .wrapper {
+  transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+  filter:blur(50px) !important;
+
+}
 }
 
 
@@ -295,7 +301,6 @@ body{
     perspective: 2500px;
     margin: 0 50px;
     background-color: transparent !important;
-    border: solid 1px rgb(155, 155, 155) !important;
   }
   
   .cover-image {
